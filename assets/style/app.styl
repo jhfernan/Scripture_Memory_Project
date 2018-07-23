@@ -1,0 +1,69 @@
+$body-font-family = 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'
+
+.page
+	@extend .fade-transition
+
+// Colors
+$primary = #00BCD4
+$accent = #FFC107
+$accent-dark = #FFA000
+$dark = #343A40
+$light = #FFF
+
+// Spacing
+$xs = 0.75rem
+$sm = 1.25rem
+$md = 1.75rem
+$lg = 2rem
+$xl = 3rem
+
+.title-primary
+	color: $primary
+
+.title-divider
+	display: block
+	width: 7rem
+	height: 0.3rem
+	background-color: $accent
+	margin: 2rem auto
+
+.divider
+	background-color: $accent !important
+
+.cardless
+	background-color: transparent
+
+.text-capitalize
+	text-transform: capitalize
+
+.underline
+	text-decoration: underline
+
+.unstyled-link
+	text-decoration: none
+
+.img-fluid
+	max-width: 100%
+	height: auto
+
+
+
+.footer-section
+	background-color: $dark
+	color: $light
+	h4
+		color: $light
+	a.footer-links
+		color: $accent
+		text-decoration: none
+	a.footer-links:hover
+		color: $accent-dark
+
+.footer-info
+	border-top: 1px solid $light
+
+//Import Custom Styling
+@require './general/markdown.styl'
