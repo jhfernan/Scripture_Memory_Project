@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-footer class="pa-4">
+		<v-footer class="px-4" height="40px">
 			<div>&copy; {{ new Date().getFullYear() }} Team Boxfort, LLC All Rights Reserved.</div>
 			<v-spacer></v-spacer>
 			<div class="text-xs-right">Application Design and Development by <a href="https://www.teamboxfort.com" target="_blank">Team Boxfort, LLC</a>.</div>
