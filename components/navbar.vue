@@ -6,6 +6,16 @@
 			<v-btn class="hidden-md-and-down" color="primary" exact flat :key="link.name" nuxt router :to="link.to" v-for="link in links">
 				{{ link.name }}
 			</v-btn>
+			<template>
+				<v-menu offset-y>
+					<v-btn slot="activator" color="primary" flat>TMS Packs</v-btn>
+					<v-list>
+						<v-list-tile exact :key="link.name" nuxt router :to="link.to" v-for="link in itemLinks">
+							<v-list-tile-title>{{ link.name }}</v-list-tile-title>
+						</v-list-tile>
+					</v-list>
+				</v-menu>
+			</template>
 			<v-toolbar-side-icon class="hidden-lg-and-up" @click.native.stop="drawer = !drawer" />
 		</v-toolbar>
 		<v-navigation-drawer app class="hidden-lg-and-up" :clipped="clipped" fixed right v-model="drawer">
@@ -24,6 +34,13 @@ export default {
 		return {
 			clipped: true,
 			drawer: false,
+			itemLinks: [
+				{ name: 'A Pack', to: '/about' },
+				{ name: 'B Pack', to: '/about' },
+				{ name: 'C Pack', to: '/about' },
+				{ name: 'D Pack', to: '/about' },
+				{ name: 'E Pack', to: '/about' }
+			],
 			links: [
 				{ name: 'Home', to: '/' },
 				{ name: 'About', to: '/about' },

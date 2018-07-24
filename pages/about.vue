@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-parallax height="700" src="/images/child-bible.jpg">
+		<v-parallax height="700" src="/images/child_bible.jpg">
 			<v-layout align-center class="white--text" column justify-center>
 				<h1 class="display-3 mb-2 text-xs-center white--text">Project 314</h1>
 				<div class="mb-3 text-xs-center title">An app for scripture memory</div>
