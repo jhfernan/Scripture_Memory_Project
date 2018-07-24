@@ -1,7 +1,60 @@
 {
 	"a": {
-		"title": " ",
-		"topic": "Christ the Center",
-		"verses": ""
+		"title": "Living the New Life",
+		"topics": [
+			{
+				"title": "Christ the Center",
+				"verses": [
+					{
+						"reference": "2 Corinthians 5:17",
+						"body": {
+							"niv": "Therefore, I am a new creation"
+						}
+					},
+					{
+						"reference": "Galatians 2:20",
+						"body": {
+							"niv": "Therefore, I am a new creation"
+						}
+					}
+				]
+			},
+			{
+				"title": "Obedience to Christ",
+				"verses": []
+			},
+			{
+				"title": "The Word",
+				"verses": []
+			},
+			{
+				"title": "Prayer",
+				"verses": []
+			},
+			{
+				"title": "Fellowship",
+				"verses": []
+			},
+			{
+				"title": "Witnessing",
+				"verses": []
+			}
+		],
+		"b": {
+			"title": "Proclaiming Christ",
+			"topics": []
+		},
+		"c": {
+			"title": "Reliance on God's Resources",
+			"topics": []
+		},
+		"d": {
+			"title": "Being Christ's Disciple",
+			"topics": []
+		},
+		"e": {
+			"title": "Growth in Christlikeness",
+			"topics": []
+		},
 	}
 }
