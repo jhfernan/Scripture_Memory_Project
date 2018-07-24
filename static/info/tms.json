@@ -39,22 +39,22 @@
 				"title": "Witnessing",
 				"verses": []
 			}
-		],
-		"b": {
-			"title": "Proclaiming Christ",
-			"topics": []
-		},
-		"c": {
-			"title": "Reliance on God's Resources",
-			"topics": []
-		},
-		"d": {
-			"title": "Being Christ's Disciple",
-			"topics": []
-		},
-		"e": {
-			"title": "Growth in Christlikeness",
-			"topics": []
-		},
+		]
+	},
+	"b": {
+		"title": "Proclaiming Christ",
+		"topics": []
+	},
+	"c": {
+		"title": "Reliance on God's Resources",
+		"topics": []
+	},
+	"d": {
+		"title": "Being Christ's Disciple",
+		"topics": []
+	},
+	"e": {
+		"title": "Growth in Christlikeness",
+		"topics": []
 	}
 }
