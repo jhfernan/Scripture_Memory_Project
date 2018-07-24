@@ -18,7 +18,16 @@
 </template>
 
 <script>
+import info from '~/static/info/tms.json'
+
 export default {
+	asyncData ({ app, params, error }) {
+		let data = info[params.pack.toLowerCase()]
+		if (!data) {
+			error({ statusCode: 404, message: 'Pack not found' })
+		}
+		return { pack: data }
+	},
 	data () {
 		return {
 			note: null,

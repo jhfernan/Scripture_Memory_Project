@@ -35,11 +35,11 @@ export default {
 			clipped: true,
 			drawer: false,
 			itemLinks: [
-				{ name: 'A Pack', to: '/about' },
-				{ name: 'B Pack', to: '/about' },
-				{ name: 'C Pack', to: '/about' },
-				{ name: 'D Pack', to: '/about' },
-				{ name: 'E Pack', to: '/about' }
+				{ name: 'A Pack', to: '/TMS/A' },
+				{ name: 'B Pack', to: '/TMS/B' },
+				{ name: 'C Pack', to: '/TMS/C' },
+				{ name: 'D Pack', to: '/TMS/D' },
+				{ name: 'E Pack', to: '/TMS/E' }
 			],
 			links: [
 				{ name: 'Home', to: '/' },
