@@ -17,26 +17,43 @@
 					<v-expansion-panel popout>
 						<v-expansion-panel-content :key="i" ripple v-for="(topic, i) in pack.topics">
 							<div class="title" slot="header">{{ topic.title }}</div>
-							<v-container grid-list-lg>
+							<v-container class="pt-0" grid-list-lg>
 								<v-layout justify-center row wrap>
 									<v-flex :key="i" v-for="(verse, i) in topic.verses" xs12 md8 lg6>
-										<v-card class="grey lighten-5" height="225px">
-											<v-card-text v-if="stage[verse.number] < 1 || !stage[verse.number]">
-												<v-layout align-center justify-center>
-													<p class="title"><strong>{{ verse.number.toUpperCase() }}</strong></p>
-												</v-layout>
-											</v-card-text>
-											<v-card-text v-if="stage[verse.reference] == 1">
-												<div>
-													<p><strong>{{ verse.reference }}</strong></p>
-													<p>{{ verse.body['esv'] }}</p>
-												</div>
-											</v-card-text>
-											<v-card-actions>
-												<v-spacer></v-spacer>
-												<v-btn color="deep-orange" @click="next(verse.reference)" dark>Explore</v-btn>
-											</v-card-actions>
-										</v-card>
+										<v-tabs v-model="stage[verse.reference]">
+											<v-tab class="hidden-lg-and-down hidden-xl-only" :key="n" v-for="n in 4"></v-tab>
+											<v-tab-item>
+												<v-card class="grey lighten-5" height="225px" hover>
+													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
+														<div class="display-4">{{ `${packName}${verse.number}` }}</div>
+													</v-layout>
+												</v-card>
+											</v-tab-item>
+											<v-tab-item>
+												<v-card class="grey lighten-5" height="225px" hover>
+													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
+														<div class="title"><strong>{{ verse.reference }}</strong></div>
+													</v-layout>
+												</v-card>
+											</v-tab-item>
+											<v-tab-item>
+												<v-card class="grey lighten-5" height="225px" hover>
+													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
+														<div class="pa-5">
+															<p><strong>{{ verse.reference }}</strong></p>
+															<p>{{ verse.body['esv'] }}</p>
+														</div>
+													</v-layout>
+												</v-card>
+											</v-tab-item>
+											<v-tab-item>
+												<v-card class="grey lighten-5" height="225px" hover>
+													<v-layout align-center @click="reset(verse.reference)" fill-height justify-center>
+														<div class="title"><strong>{{ verse.reference }}</strong></div>
+													</v-layout>
+												</v-card>
+											</v-tab-item>
+										</v-tabs>
 									</v-flex>
 								</v-layout>
 							</v-container>
@@ -64,7 +81,6 @@ export default {
 				stage[data.topics[i].verses[verse].reference] = 0
 			}
 		}
-		console.log(stage)
 		return {
 			pack: data,
 			packName: params.pack,
@@ -74,7 +90,10 @@ export default {
 	methods: {
 		next (number) {
 			this.stage[number] += 1
-		}
+		},
+		reset (number) {
+			this.stage[number] = 0
+		},
 	}
 }
 </script>
