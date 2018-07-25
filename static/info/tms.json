@@ -77,12 +77,12 @@
 					},
 					{
 						"number": "6",
-						"reference": "",
+						"reference": "Joshua 1:8",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "8",
+								"esv": "This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success.",
+								"niv": "Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful."
 							}
 						]
 					}
@@ -92,24 +92,29 @@
 				"title": "Prayer",
 				"verses": [
 					{
-						"number": "",
-						"reference": "",
+						"number": "7",
+						"reference": "John 15:7",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "7",
+								"esv": "If you abide in me, and my words abide in you, ask whatever you wish, and it will be done for you.",
+								"niv": "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you."
 							}
 						]
 					},
 					{
-						"number": "",
-						"reference": "",
+						"number": "8",
+						"reference": "Philippians 4:6-7",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "6",
+								"esv": "do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.",
+								"niv": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God."
+							},
+							{
+								"ref": "7",
+								"esv": "And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.",
+								"niv": "And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
 							}
 						]
 					}
@@ -119,18 +124,18 @@
 				"title": "Fellowship",
 				"verses": [
 					{
-						"number": "",
-						"reference": "",
+						"number": "9",
+						"reference": "Matthew 18:20",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "20",
+								"esv": "For where two or three are gathered in my name, there am I among them.\"",
+								"niv": "For where two or three gather in my name, there am I with them.\""
 							}
 						]
 					},
 					{
-						"number": "",
+						"number": "10",
 						"reference": "",
 						"body": [
 							{

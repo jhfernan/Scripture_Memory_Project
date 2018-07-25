@@ -49,7 +49,7 @@
 															</v-layout>
 															<p>
 																<span :key="item.ref" v-for="item in verse.body">
-																	<strong>{{ item.ref }}</strong> {{ item[version] }}
+																	<strong class="ml-1">{{ item.ref }}</strong> {{ item[version] }}
 																</span>
 															</p>
 														</div>
