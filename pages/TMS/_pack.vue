@@ -17,59 +17,46 @@
 					<v-expansion-panel popout>
 						<v-expansion-panel-content :key="i" ripple v-for="(topic, i) in pack.topics">
 							<div class="title" slot="header">{{ topic.title }}</div>
-							<v-container class="pt-0" grid-list-lg>
+							<v-container grid-list-lg>
 								<v-layout justify-center row wrap>
 									<v-flex :key="i" v-for="(verse, i) in topic.verses" xs12 md8 lg6>
-										<transition-group name="fade" mode="out-in">
-											<v-card class="grey lighten-5" height="225px" hover key="number" v-show="stage[verse.reference] == 0">
-												<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
-													<div class="display-4">{{ `${packName}${verse.number}` }}</div>
-												</v-layout>
-											</v-card>
-											<v-card class="grey lighten-5" height="225px" hover key="reference" v-show="stage[verse.reference] == 1">
-												<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
-													<div class="title"><strong>{{ verse.reference }}</strong></div>
-												</v-layout>
-											</v-card>
-										</transition-group>
-										<!-- <v-tabs v-model="stage[verse.reference]">
-											<v-tab class="hidden-lg-and-down hidden-xl-only" :key="n" v-for="n in 4"></v-tab>
-											<v-tab-item>
+										<transition name="fade" mode="out-in">
+											<div @click="next(verse.reference)" key="number" v-if="stage[verse.reference] == 0">
 												<v-card class="grey lighten-5" height="225px" hover>
-													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
+													<v-layout align-center fill-height justify-center>
 														<div class="display-4">{{ `${packName}${verse.number}` }}</div>
 													</v-layout>
 												</v-card>
-											</v-tab-item>
-											<v-tab-item>
+											</div>
+											<div @click="next(verse.reference)" key="reference" v-if="stage[verse.reference] == 1">
 												<v-card class="grey lighten-5" height="225px" hover>
-													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
+													<v-layout align-center fill-height justify-center>
 														<div class="title"><strong>{{ verse.reference }}</strong></div>
 													</v-layout>
 												</v-card>
-											</v-tab-item>
-											<v-tab-item>
+											</div>
+											<div @click="reset(verse.reference)" key="body" v-if="stage[verse.reference] == 2">
 												<v-card class="grey lighten-5" height="225px" hover>
-													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
-														<div class="pa-5">
-															<p><strong>{{ verse.reference }}</strong></p>
+													<v-layout>
+														<div class="px-4 py-3">
+															<v-layout row wrap>
+																<v-flex xs6>
+																	<strong>{{ verse.reference }}</strong>
+																</v-flex>
+																<v-flex xs6>
+																	<div class="text-xs-right text-uppercase">{{ version }}</div>
+																</v-flex>
+															</v-layout>
 															<p>
 																<span :key="item.ref" v-for="item in verse.body">
-																	<strong>{{ item.ref }}</strong> {{ item['esv'] }}
+																	<strong>{{ item.ref }}</strong> {{ item[version] }}
 																</span>
 															</p>
 														</div>
 													</v-layout>
 												</v-card>
-											</v-tab-item>
-											<v-tab-item>
-												<v-card class="grey lighten-5" height="225px" hover>
-													<v-layout align-center @click="reset(verse.reference)" fill-height justify-center>
-														<div class="title"><strong>{{ verse.reference }}</strong></div>
-													</v-layout>
-												</v-card>
-											</v-tab-item>
-										</v-tabs> -->
+											</div>
+										</transition>
 									</v-flex>
 								</v-layout>
 							</v-container>
@@ -101,6 +88,11 @@ export default {
 			pack: data,
 			packName: params.pack,
 			stage: stage
+		}
+	},
+	data () {
+		return {
+			version: 'esv',
 		}
 	},
 	methods: {
