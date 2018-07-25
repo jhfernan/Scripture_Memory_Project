@@ -37,9 +37,9 @@
 						"reference": "Romans 12:1",
 						"body": [
 							{
-								"ref": "17",
-								"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-								"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+								"ref": "12",
+								"esv": "I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.",
+								"niv": "Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God—this is your true and proper worship."
 							}
 						]
 					},
@@ -48,9 +48,9 @@
 						"reference": "John 14:21",
 						"body": [
 							{
-								"ref": "17",
-								"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-								"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+								"ref": "21",
+								"esv": "Whoever has my commandments and keeps them, he it is who loves me. And he who loves me will be loved by my Father, and I will love him and manifest myself to him.",
+								"niv": "Whoever has my commands and keeps them is the one who loves me. The one who loves me will be loved by my Father, and I too will love them and show myself to them."
 							}
 						]
 					}
@@ -58,19 +58,116 @@
 			},
 			{
 				"title": "The Word",
-				"verses": []
+				"verses": [
+					{
+						"number": "5",
+						"reference": "2 Timothy 3:16-17",
+						"body": [
+							{
+								"ref": "16",
+								"esv": "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness,",
+								"niv": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness,"
+							},
+							{
+								"ref": "17",
+								"esv": "that the man of God may be complete, equipped for every good work.",
+								"niv": "so that the servant of God may be thoroughly equipped for every good work."
+							}
+						]
+					},
+					{
+						"number": "6",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					}
+				]
 			},
 			{
 				"title": "Prayer",
-				"verses": []
+				"verses": [
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					},
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					}
+				]
 			},
 			{
 				"title": "Fellowship",
-				"verses": []
+				"verses": [
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					},
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					}
+				]
 			},
 			{
 				"title": "Witnessing",
-				"verses": []
+				"verses": [
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					},
+					{
+						"number": "",
+						"reference": "",
+						"body": [
+							{
+								"ref": "",
+								"esv": "",
+								"niv": ""
+							}
+						]
+					}
+				]
 			}
 		]
 	},
