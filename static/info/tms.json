@@ -8,18 +8,24 @@
 					{
 						"number": "1",
 						"reference": "2 Corinthians 5:17",
-						"body": {
-							"esv": "17 Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-							"niv": "17 Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
-						}
+						"body": [
+							{
+								"ref": "17",
+								"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+								"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+							}
+						]
 					},
 					{
 						"number": "2",
 						"reference": "Galatians 2:20",
-						"body": {
-							"esv": "20 I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
-							"niv": "20 I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me."
-						}
+						"body": [
+							{
+								"ref": "20",
+								"esv": "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
+								"niv": "I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me."
+							}
+						]
 					}
 				]
 			},
@@ -29,18 +35,24 @@
 					{
 						"number": "3",
 						"reference": "Romans 12:1",
-						"body": {
-							"esv": "17 Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-							"niv": "17 Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
-						}
+						"body": [
+							{
+								"ref": "17",
+								"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+								"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+							}
+						]
 					},
 					{
 						"number": "4",
 						"reference": "John 14:21",
-						"body": {
-							"esv": "20 I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
-							"niv": "20 I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me."
-						}
+						"body": [
+							{
+								"ref": "17",
+								"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+								"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+							}
+						]
 					}
 				]
 			},

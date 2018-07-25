@@ -41,7 +41,11 @@
 													<v-layout align-center @click="next(verse.reference)" fill-height justify-center>
 														<div class="pa-5">
 															<p><strong>{{ verse.reference }}</strong></p>
-															<p>{{ verse.body['esv'] }}</p>
+															<p>
+																<span :key="item.ref" v-for="item in verse.body">
+																	<strong>{{ item.ref }}</strong> {{ item['esv'] }}
+																</span>
+															</p>
 														</div>
 													</v-layout>
 												</v-card>
