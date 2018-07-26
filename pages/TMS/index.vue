@@ -2,7 +2,7 @@
 	<div>
 		<v-carousel class="teal cb-full-screen" :cycle="false" hide-controls hide-delimiters :value="current">
 			<v-carousel-item :key="i" v-for="(pack, key, i) in packs">
-				<v-layout align-center class="teal" justify-center row wrap>
+				<v-layout class="pt-5" align-center justify-center row wrap>
 					<v-flex xs12 md4 lg3>
 						<v-jumbotron dark gradient="to right, #00796B, #009688">
 							<v-container fill-height>
@@ -15,7 +15,7 @@
 							</v-container>
 						</v-jumbotron>
 					</v-flex>
-					<v-flex xs12 md8 lg9>
+					<v-flex class="pt-3" xs12 md8 lg9>
 						<v-layout justify-center>
 							<v-flex xs11 md10>
 								<v-expansion-panel popout>
@@ -73,13 +73,24 @@
 			</v-carousel-item>
 		</v-carousel>
 
-		<v-navigation-drawer app clipped fixed mini-variant v-model="drawer">
+		<v-navigation-drawer app clipped fixed mini-variant permanent v-model="drawer">
 			<v-list>
-				<v-list-tile-action :key="link.name" v-for="link in links">
-					<v-btn class="my-3" icon @click.stop="current = link.number">
-						{{ link.name }}
-					</v-btn>
-				</v-list-tile-action>
+				<v-list-tile :key="link.name" v-for="link in links">
+					<v-list-tile-action>
+						<v-btn class="my-3" icon @click.stop="current = link.number">
+							{{ link.name }}
+						</v-btn>
+					</v-list-tile-action>
+				</v-list-tile>
+			</v-list>
+			<v-list class="mt-3">
+				<v-list-tile :key="i" v-for="(theVersion, i) in versions">
+					<v-list-tile-action>
+						<v-btn class="my-3" icon @click.stop="change(theVersion)">
+							{{ theVersion }}
+						</v-btn>
+					</v-list-tile-action>
+				</v-list-tile>
 			</v-list>
 		</v-navigation-drawer>
 	</div>
@@ -120,9 +131,13 @@ export default {
 				{ name: 'E', number: 4 }
 			],
 			version: 'esv',
+			versions: ['esv', 'niv']
 		}
 	},
 	methods: {
+		change (version) {
+			this.version = version
+		},
 		next (number) {
 			this.stage[number] += 1
 		},
