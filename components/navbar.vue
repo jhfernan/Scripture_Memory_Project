@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<v-toolbar app class="white px-3" dense light :clipped-right="clipped" fixed>
-			<v-toolbar-title>Project 314</v-toolbar-title>
+			<v-toolbar-title>314 Proverbs</v-toolbar-title>
 			<v-spacer></v-spacer>
 			<v-btn class="hidden-md-and-down" color="primary" exact flat :key="link.name" nuxt router :to="link.to" v-for="link in links">
 				{{ link.name }}

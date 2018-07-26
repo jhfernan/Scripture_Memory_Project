@@ -1,19 +1,14 @@
 <template>
 	<div>
-		<v-parallax height="700" src="/images/child_bible.jpg">
-			<v-layout align-center class="white--text" column justify-center>
-				<h1 class="display-3 mb-2 text-xs-center white--text">Project 314</h1>
-				<div class="mb-3 text-xs-center title">An app for scripture memory</div>
-				<div>
-					<v-btn class="mt-5" color="primary" dark large nuxt router to="/about">
-						About The Project
-					</v-btn>
-					<v-btn class="mt-5" color="white" dark large nuxt outline router to="/quote">
-						Request a Quote
-					</v-btn>
-				</div>
-			</v-layout>
-		</v-parallax>
+		<v-jumbotron dark gradient="to right, #00796B, #009688" height="250px">
+			<v-container fill-height>
+				<v-layout align-center>
+					<v-flex text-xs-center>
+						<h3 class="display-3 text-capitalize">About Us</h3>
+					</v-flex>
+				</v-layout>
+			</v-container>
+		</v-jumbotron>
 	</div>
 </template>
 
