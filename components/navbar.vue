@@ -6,7 +6,7 @@
 			<v-btn class="hidden-md-and-down" color="primary" exact flat :key="link.name" nuxt router :to="link.to" v-for="link in links">
 				{{ link.name }}
 			</v-btn>
-			<template>
+			<!-- <template>
 				<v-menu offset-y>
 					<v-btn slot="activator" color="primary" flat>TMS Packs</v-btn>
 					<v-list>
@@ -15,7 +15,7 @@
 						</v-list-tile>
 					</v-list>
 				</v-menu>
-			</template>
+			</template> -->
 			<v-toolbar-side-icon class="hidden-lg-and-up" @click.native.stop="drawer = !drawer" />
 		</v-toolbar>
 		<v-navigation-drawer app class="hidden-lg-and-up" :clipped="clipped" fixed right v-model="drawer">
@@ -44,6 +44,7 @@ export default {
 			links: [
 				{ name: 'Home', to: '/' },
 				{ name: 'About', to: '/about' },
+				{ name: 'TMS', to: '/tms' },
 			],
 		}
 	}
