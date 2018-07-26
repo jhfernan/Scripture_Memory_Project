@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<v-jumbotron dark gradient="to right, #00796B, #009688" height="250px">
+		
+
+		<!-- <v-jumbotron dark gradient="to right, #00796B, #009688" height="250px">
 			<v-container fill-height>
 				<v-layout align-center>
 					<v-flex text-xs-center>
@@ -64,31 +66,32 @@
 					</v-expansion-panel>
 				</v-flex>
 			</v-layout>
-		</v-container>
+		</v-container> -->
 
 	</div>
 </template>
 
 <script>
-import info from '~/static/info/tms/tms.json'
-
 export default {
 	asyncData ({ app, params, error }) {
-		let data = info[params.pack.toLowerCase()]
-		let stage = {}
-		if (!data) {
-			error({ statusCode: 404, message: 'Pack not found' })
-		}
-		for (let i in data.topics) {
-			for (let verse in data.topics[i].verses) {
-				stage[data.topics[i].verses[verse].reference] = 0
-			}
-		}
-		return {
-			pack: data,
-			packName: params.pack,
-			stage: stage
-		}
+		return app.$axios.get('/info/tms/tms.json')
+			.then(res => {
+				let stage = {}
+				for (var i = 0; i < res.data.length; i++) {
+					for (let i in res.data[i].topics) {
+						for (let verse in data.topics[i].verses) {
+							stage[data.topics[i].verses[verse].reference] = 0
+						}
+					}
+				}
+				return {
+					packs: res.data,
+					stage: stage
+				}
+			})
+			.catch(err => {
+				error({ statusCode: 404, message: 'TMS data not found' })
+			})
 	},
 	data () {
 		return {

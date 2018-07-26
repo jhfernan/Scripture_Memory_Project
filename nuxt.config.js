@@ -16,13 +16,20 @@ module.exports = {
 		]
 	},
 
+	axios: {
+		progress: true,
+	},
+
 	css: [
 		'@/assets/style/app.styl',
 	],
 
 	loading: { color: '#B2DFDB' },
 
+	modules: ['@nuxtjs/axios'],
+
 	plugins: [
+		'~/plugins/axios',
 		'~plugins/filters.js',
 		'~/plugins/vuetify',
 	],
