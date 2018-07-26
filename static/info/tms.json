@@ -136,12 +136,17 @@
 					},
 					{
 						"number": "10",
-						"reference": "",
+						"reference": "Hebrews 10:24-25",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "24",
+								"esv": "And let us consider how to stir up one another to love and good works,",
+								"niv": "And let us consider how we may spur one another on toward love and good deeds,"
+							},
+							{
+								"ref": "25",
+								"esv": "not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near.",
+								"niv": "not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching."
 							}
 						]
 					}
@@ -151,24 +156,24 @@
 				"title": "Witnessing",
 				"verses": [
 					{
-						"number": "",
-						"reference": "",
+						"number": "11",
+						"reference": "Matthew 4:19",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "19",
+								"esv": "And he said to them, \"Follow me, and I will make you fishers of men.\"",
+								"niv": "\"Come, follow me,\" Jesus said, \"and I will send you out to fish for people.\""
 							}
 						]
 					},
 					{
-						"number": "",
-						"reference": "",
+						"number": "12",
+						"reference": "Romans 1:16",
 						"body": [
 							{
-								"ref": "",
-								"esv": "",
-								"niv": ""
+								"ref": "16",
+								"esv": "For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew first and also to the Greek.",
+								"niv": "For I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes: first to the Jew, then to the Gentile."
 							}
 						]
 					}
