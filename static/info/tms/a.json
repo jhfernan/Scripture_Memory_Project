@@ -1,0 +1,182 @@
+{
+	"title": "Living the New Life",
+	"topics": [
+		{
+			"title": "Christ the Center",
+			"verses": [
+				{
+					"number": "1",
+					"reference": "2 Corinthians 5:17",
+					"body": [
+						{
+							"ref": "17",
+							"esv": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+							"niv": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+						}
+					]
+				},
+				{
+					"number": "2",
+					"reference": "Galatians 2:20",
+					"body": [
+						{
+							"ref": "20",
+							"esv": "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
+							"niv": "I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Obedience to Christ",
+			"verses": [
+				{
+					"number": "3",
+					"reference": "Romans 12:1",
+					"body": [
+						{
+							"ref": "12",
+							"esv": "I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.",
+							"niv": "Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God—this is your true and proper worship."
+						}
+					]
+				},
+				{
+					"number": "4",
+					"reference": "John 14:21",
+					"body": [
+						{
+							"ref": "21",
+							"esv": "Whoever has my commandments and keeps them, he it is who loves me. And he who loves me will be loved by my Father, and I will love him and manifest myself to him.",
+							"niv": "Whoever has my commands and keeps them is the one who loves me. The one who loves me will be loved by my Father, and I too will love them and show myself to them."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "The Word",
+			"verses": [
+				{
+					"number": "5",
+					"reference": "2 Timothy 3:16-17",
+					"body": [
+						{
+							"ref": "16",
+							"esv": "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness,",
+							"niv": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness,"
+						},
+						{
+							"ref": "17",
+							"esv": "that the man of God may be complete, equipped for every good work.",
+							"niv": "so that the servant of God may be thoroughly equipped for every good work."
+						}
+					]
+				},
+				{
+					"number": "6",
+					"reference": "Joshua 1:8",
+					"body": [
+						{
+							"ref": "8",
+							"esv": "This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success.",
+							"niv": "Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Prayer",
+			"verses": [
+				{
+					"number": "7",
+					"reference": "John 15:7",
+					"body": [
+						{
+							"ref": "7",
+							"esv": "If you abide in me, and my words abide in you, ask whatever you wish, and it will be done for you.",
+							"niv": "If you remain in me and my words remain in you, ask whatever you wish, and it will be done for you."
+						}
+					]
+				},
+				{
+					"number": "8",
+					"reference": "Philippians 4:6-7",
+					"body": [
+						{
+							"ref": "6",
+							"esv": "do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.",
+							"niv": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God."
+						},
+						{
+							"ref": "7",
+							"esv": "And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.",
+							"niv": "And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Fellowship",
+			"verses": [
+				{
+					"number": "9",
+					"reference": "Matthew 18:20",
+					"body": [
+						{
+							"ref": "20",
+							"esv": "For where two or three are gathered in my name, there am I among them.\"",
+							"niv": "For where two or three gather in my name, there am I with them.\""
+						}
+					]
+				},
+				{
+					"number": "10",
+					"reference": "Hebrews 10:24-25",
+					"body": [
+						{
+							"ref": "24",
+							"esv": "And let us consider how to stir up one another to love and good works,",
+							"niv": "And let us consider how we may spur one another on toward love and good deeds,"
+						},
+						{
+							"ref": "25",
+							"esv": "not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near.",
+							"niv": "not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching."
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Witnessing",
+			"verses": [
+				{
+					"number": "11",
+					"reference": "Matthew 4:19",
+					"body": [
+						{
+							"ref": "19",
+							"esv": "And he said to them, \"Follow me, and I will make you fishers of men.\"",
+							"niv": "\"Come, follow me,\" Jesus said, \"and I will send you out to fish for people.\""
+						}
+					]
+				},
+				{
+					"number": "12",
+					"reference": "Romans 1:16",
+					"body": [
+						{
+							"ref": "16",
+							"esv": "For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew first and also to the Greek.",
+							"niv": "For I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes: first to the Jew, then to the Gentile."
+						}
+					]
+				}
+			]
+		}
+	]
+}
