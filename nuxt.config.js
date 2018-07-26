@@ -13,11 +13,6 @@ module.exports = {
 				type: 'text/css',
 				href: 'https://fonts.googleapis.com/css?family=Indie+Flower|Material+Icons|Montserrat|Roboto:300,400,500,700'
 			},
-			{
-				rel: 'stylesheet',
-				type: 'text/css',
-				href: 'https://cdn.jsdelivr.net/npm/animate.css@3.5.1'
-			},
 		]
 	},
 
