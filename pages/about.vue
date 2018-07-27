@@ -21,7 +21,7 @@ export default {
 	},
 	head () {
 		return {
-			title: 'About Project 314',
+			title: 'About 314 Proverbs',
 		}
 	},
 }

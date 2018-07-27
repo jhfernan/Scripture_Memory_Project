@@ -126,6 +126,11 @@ export default {
 			versions: ['esv', 'niv']
 		}
 	},
+	head () {
+		return {
+			title: 'TMS: Topical Memory System',
+		}
+	},
 	methods: {
 		change (version) {
 			this.version = version

@@ -1,7 +1,7 @@
 module.exports = {
 	// Headers of the page\
 	head: {
-		title: 'Project 314',
+		title: '314 Proverbs',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
