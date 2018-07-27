@@ -33,6 +33,7 @@ module.exports = {
 		'~plugins/filters.js',
 		'~/plugins/vuetify',
 	],
+	
 	// Build configuration
 	build: {
 		// Run ESLint on save
