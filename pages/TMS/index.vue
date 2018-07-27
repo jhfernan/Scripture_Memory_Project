@@ -97,29 +97,19 @@
 </template>
 
 <script>
+import info from '~/static/info/tms/tms.json'
+
 export default {
-	asyncData ({ app, params, error }) {
-		return app.$axios.get('/info/tms/tms.json')
-			.then(res => {
-				let stage = {}
-				let packs = res.data
-				for (let pack in packs) {
-					for (let i in packs[pack].topics) {
-						for (let verse in packs[pack].topics[i].verses) {
-							stage[packs[pack].topics[i].verses[verse].reference] = 0
-						}
-					}
-				}
-				return {
-					packs: res.data,
-					stage: stage
-				}
-			})
-			.catch(err => {
-				error({ statusCode: 404, message: 'TMS data not found' })
-			})
-	},
 	data () {
+		let stage = {}
+		let packs = info
+		for (let pack in packs) {
+			for (let i in packs[pack].topics) {
+				for (let verse in packs[pack].topics[i].verses) {
+					stage[packs[pack].topics[i].verses[verse].reference] = 0
+				}
+			}
+		}
 		return {
 			current: 0,
 			drawer: true,
@@ -130,6 +120,8 @@ export default {
 				{ name: 'D', number: 3 },
 				{ name: 'E', number: 4 }
 			],
+			packs: packs,
+			stage: stage,
 			version: 'esv',
 			versions: ['esv', 'niv']
 		}
