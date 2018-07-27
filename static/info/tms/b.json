@@ -9,9 +9,9 @@
 					"reference": "Romans 3:23",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "23",
+							"esv": "for all have sinned and fall short of the glory of God,",
+							"niv": "for all have sinned and fall short of the glory of God,"
 						}
 					]
 				},
@@ -20,9 +20,9 @@
 					"reference": "Isaiah 53:6",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "6",
+							"esv": "All we like sheep have gone astray; we have turned—every one—to his own way; and the Lord has laid on him the iniquity of us all.",
+							"niv": "We all, like sheep, have gone astray, each of us has turned to our own way; and the Lord has laid on him the iniquity of us all."
 						}
 					]
 				}
@@ -33,131 +33,136 @@
 			"verses": [
 				{
 					"number": "3",
-					"reference": "",
+					"reference": "Romans 6:23",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "23",
+							"esv": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+							"niv": "For the wages of sin is death, but the gift of God is eternal life in[a] Christ Jesus our Lord."
 						}
 					]
 				},
 				{
 					"number": "4",
-					"reference": "",
+					"reference": "Hebrews 9:27",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "27",
+							"esv": "And just as it is appointed for man to die once, and after that comes judgment,",
+							"niv": "Just as people are destined to die once, and after that to face judgment,"
 						}
 					]
 				}
 			]
 		},
 		{
-			"title": "",
+			"title": "Christ Paid the Penalty",
 			"verses": [
 				{
-					"number": "",
-					"reference": "",
+					"number": "5",
+					"reference": "Romans 5:8",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "8",
+							"esv": "but God shows his love for us in that while we were still sinners, Christ died for us.",
+							"niv": "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."
 						}
 					]
 				},
 				{
-					"number": "",
-					"reference": "",
+					"number": "6",
+					"reference": "1 Peter 3:18",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "18",
+							"esv": "For Christ also suffered[a] once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit,",
+							"niv": "For Christ also suffered once for sins, the righteous for the unrighteous, to bring you to God. He was put to death in the body but made alive in the Spirit."
 						}
 					]
 				}
 			]
 		},
 		{
-			"title": "",
+			"title": "Salvation is not by Works",
 			"verses": [
 				{
-					"number": "",
-					"reference": "",
+					"number": "7",
+					"reference": "Ephesians 2:8-9",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "8",
+							"esv": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God,",
+							"niv": "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God"
+						},
+						{
+							"ref": "9",
+							"esv": "not a result of works, so that no one may boast.",
+							"niv": "not by works, so that no one can boast."
 						}
 					]
 				},
 				{
-					"number": "",
-					"reference": "",
+					"number": "8",
+					"reference": "Titus 3:5",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "5",
+							"esv": "he saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit,",
+							"niv": "he saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit,"
 						}
 					]
 				}
 			]
 		},
 		{
-			"title": "",
+			"title": "Must Receive Christ",
 			"verses": [
 				{
-					"number": "",
-					"reference": "",
+					"number": "9",
+					"reference": "John 1:12",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "12",
+							"esv": "But to all who did receive him, who believed in his name, he gave the right to become children of God,",
+							"niv": "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God"
 						}
 					]
 				},
 				{
-					"number": "",
-					"reference": "",
+					"number": "10",
+					"reference": "Revelation 3:20",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "20",
+							"esv": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.",
+							"niv": "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me."
 						}
 					]
 				}
 			]
 		},
 		{
-			"title": "",
+			"title": "Assurance of Salvation",
 			"verses": [
 				{
-					"number": "",
-					"reference": "",
+					"number": "11",
+					"reference": "1 John 5:13",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "13",
+							"esv": "I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.",
+							"niv": "I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life."
 						}
 					]
 				},
 				{
-					"number": "",
-					"reference": "",
+					"number": "12",
+					"reference": "John 5:24",
 					"body": [
 						{
-							"ref": "",
-							"esv": "",
-							"niv": ""
+							"ref": "24",
+							"esv": "Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.",
+							"niv": "Very truly I tell you, whoever hears my word and believes him who sent me has eternal life and will not be judged but has crossed over from death to life."
 						}
 					]
 				}
